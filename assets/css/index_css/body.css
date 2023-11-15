@@ -1,0 +1,9 @@
+/* Estilo para body */
+body {
+  background-image: url("../../img/background.webp");
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Ubuntu Nerd Font Regular", "Arial"; /* Arial es la fuente de repuesto*/
+}
+
+
