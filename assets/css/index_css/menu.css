@@ -4,11 +4,13 @@
 
 /* Menu box style */
 .menu {
-  /*border: 1px solid #FFFFFF;*/  /* Borde */
+  border: 1px solid white;
   display: block;
   position: relative;
+  box-shadow: inset 0px 0px 5px 2px red, 0px 0px 5px 2px red;
   width: 310px;
   height: 390px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -35,10 +37,11 @@
 .title {
   /* border: 1px solid #FFFFFF; */
   position: absolute;
+  text-shadow: 0px 0px 5px red, 0px 0px 10px red, 0px 0px 15px red, 0px 0px 20px red;
   font-family: "Beauty_Wind", "Arial"; /* Arial es la fuente de repuesto */
   text-align: center;
   width: 310px;
-  color: #BA1303;
+  color: white;
   font-size: 40px;
   text-decoration: none;
   padding-top: 8px;
@@ -85,8 +88,8 @@
 
 /* Options and emoji style */
 .opt_1 p, .opt_2 p, .opt_3 p, .opt_4 p, .opt_5 p {
-  margin-top: 11px;
-  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 14px;
   display: inline-block;
  }
 
@@ -95,7 +98,7 @@
   /* border: 1px solid #FFFFFF; */
   width: 36%;
   font-family: "Agent_C", "Arial"; /* Arial es la fuente de repuesto*/
-  font-size: 28px;
+  font-size: 30px;
 }
 
 /* Emoji substyle */
@@ -111,7 +114,8 @@
 
 /* Options links substyle */
 .img_link:hover, .vid_link:hover, .music_link:hover, .likes_link:hover, .git_link:hover {
-  color: #BA1303;
+  text-shadow: 0px 0px 30px red, 0px 0px 20px red, 0px 0px 15px red, 0px 0px 10px red;
+  color: white;
 }
 
 /* ------------------------------------------------------------------------------------------- */

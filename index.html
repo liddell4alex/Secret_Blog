@@ -16,90 +16,136 @@
   </head>
 
   <body>
+    <main>
 
-    <!-- Menú box code ------------------------------------------------------------------------- -->
+      <!-- Menú box code ------------------------------------------------------------------------- -->
 
-    <section class="menu">
+      <section class="menu">
 
-      <!-- Background Video code -->
-      <section> 
-        <video class="back_video" autoplay loop muted poster="./assets/img/menu_background.webp" type="img/webp">
-          <source src="./assets/vid/menu_video_background.mp4" type="video/mp4"/>
-        </video>
+        <!-- Background Video code -->
+        <section>
+          <video class="back_video" autoplay loop muted poster="./assets/img/menu_background.webp" type="img/webp">
+            <source src="./assets/vid/menu_video_background.mp4" type="video/mp4"/>
+          </video>
+        </section>
+
+        <!-- Title, phrase and autor's phrase code -->
+        <section>
+          <h1><a class="title" href="./index.html">Mi Blog<a/></h1>
+          <h2 class="frase" style="font-size: 18px">"Programming is understanding"</h2>
+          <h3 style="font-size: 10px"><a class="frase_auth" href="https://en.wikipedia.org/wiki/Kristen_Nygaard" target="_blank">– Kristen Nygaard</a></h3>
+        </section>
+
+        <!-- Menu options code -->
+        <section class="menu_opt">
+
+          <div class="opt_1">
+            <a href="./index.html" class="likes_link">
+              <p class="likes">Yo</p>
+              <p class="ico_likes">💀</p>
+            </a>
+          </div>
+
+          <div class="opt_2">
+            <a href="./index.html" class="img_link">
+              <p class="img">Imágenes</p>
+              <p class="ico_img">📷 </p>
+            </a>
+          </div>
+
+          <div class="opt_3">
+            <a href="./index.html" class="vid_link">
+              <p class="vid">Videos</p>
+              <p class="ico_vid">🎬 </p>
+            </a>
+          </div>
+
+          <div class="opt_4">
+            <a href="./index.html" class="music_link">
+              <p class="music">Música</p>
+              <p class="ico_music">🎵</p>
+            </a>
+          </div>
+
+          <div class="opt_5">
+            <a href="https://github.com/liddell4alex" target="_blank" class="git_link">
+              <p class="git">My GitHub</p>
+              <p class="ico_git">🐈‍⬛</p>
+            </a>
+          </div>
+
+        </section>
+
       </section>
 
-      <!-- Title, phrase and autor's phrase code -->
-      <section>   
-        <h1><a class="title" href="./index.html">Mi Blog<a/></h1>
-        <h2 class="frase" style="font-size: 18px">"Programming is understanding"</h2>
-        <h3 style="font-size: 10px"><a class="frase_auth" href="https://en.wikipedia.org/wiki/Kristen_Nygaard" target="_blank">– Kristen Nygaard</a></h3>
+      <!-- --------------------------------------------------------------------------------------- -->
+
+      <!-- Formulario de la página -------------------------------------------------------------- -->
+
+      <!-- Form box -->
+      <section class="form_box">
+
+        <!-- Form title and description -->
+        <div>
+          <h2 class="form_title" style="font-size: 40px"><b>Encuesta</b></h2>
+          <p class="form_descript" style="font-size: 30px">Pequeña encuesta simplemente para practicar,
+                                                           muy seguramente la borraré o la moveré de lugar
+                                                           en un futuro.</p>
+        </div>
+
+        <!-- Form itself -->
+        <section class="form_itself_box">
+          <form action="~/Documentos/">
+
+            <!-- Name box -->
+            <div class="name">
+              <p class="name_text">Nombre</p>
+              <input required class="name_box" type="text" name="fname" placeholder="Nombre">
+              <input required class="lastname_box" type="text" name="lname" placeholder="Apellido/s">
+            </div>
+
+            <!-- Email box -->
+            <div class="email">
+              <p class="email_text">E-mail</p>
+              <input class="email_box" type="text" name="email" placeholder="E-mail">
+            </div>
+
+            <!-- Country box -->
+            <div class="country">
+              <p class="country_text">País</p>
+              <select class="country_box">
+                <option value="option">Selecciona tu país</option>
+                <option value="mx">México</option>
+                <option value="co">Colombia</option>
+                <option value="ar">Argentina</option>
+                <option value="jp">Japón</option>
+                <option value="de">Alemania</option>
+              </select>
+            </div>
+
+            <!-- Pet -->
+            <div class="pet">
+              <p class="pet_text">Máscota</p>
+              <div class="pet_options">
+                <label><input type="radio" name="pet" value="cat"> Gatos</label>
+                <label><input type="radio" name="pet" value="dog"> Perros</label>
+                <label><input type="radio" name="pet" value="ambos"> Ambos</label>
+                <label><input type="radio" name="pet" value="none"> Ninguno</label>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="submit_button">
+              <button type="submit">Aceptar</button>
+            </div>
+
+          </form>
+
+        </section>
+
       </section>
 
-      <!-- Menu options code -->
-      <section class="menu_opt"> 
-
-        <div class="opt_1">
-          <a href="./index.html" class="img_link">
-            <p class="img">Imagenes</p>
-            <p class="ico_img">📷 </p>
-          </a>
-        </div>
-
-        <div class="opt_2">
-          <a href="./index.html" class="vid_link">
-            <p class="vid">Videos</p>
-            <p class="ico_vid">🎬 </p>
-          </a>
-        </div>
-
-        <div class="opt_3">
-          <a href="./index.html" class="music_link">
-            <p class="music">Música</p>
-            <p class="ico_music">🎵</p>
-          </a>
-        </div>
-
-        <div class="opt_4">
-          <a href="./index.html" class="likes_link">
-            <p class="likes">Gustos</p>
-            <p class="ico_likes">💀</p>
-          </a>
-        </div>
-
-        <div class="opt_5">
-          <a href="https://github.com/liddell4alex" target="_blank" class="git_link">
-            <p class="git">My GitHub</p>
-            <p class="ico_git">🐈‍⬛</p>
-          </a>
-        </div>
-
-      </section>
-
-    </section>
-
-    <!-- --------------------------------------------------------------------------------------- -->
-
-    <!-- Descripción de la página -------------------------------------------------------------- -->
-
-    <!-- Description box -->
-    <section class="description">
-
-      <!-- Description text -->
-      <section class="description_text">
-        <p><b>Bloque para la descripción-------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------
-        ---------------------------------------------------------------</b></p>
-      </section>
-
-    </section>
-
-    <!-- --------------------------------------------------------------------------------------- -->
-
+      <!-- --------------------------------------------------------------------------------------- -->
+    </main>
   </body>
 </html>
