@@ -11,8 +11,8 @@
   margin-bottom: 25px;
   margin-left: auto;
   margin-right:auto;
-  width: 755px;
-  height: 800px;
+  width: 750px;
+  height: 650px;
   border-radius: 30px;
   background-color: black;
   opacity: 0.9;
@@ -178,6 +178,37 @@
   color: white;
   font-size: 20px;
   margin-right: 43px;
+}
+
+/* SO title */
+.so p, .so div {
+  margin-top: 4px;
+  display: inline-block;
+}
+
+/* So title style */
+.so_text {
+  /* border: 1px solid white; */
+  color: white;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 52px;
+  width: 178px;
+  font-family: "Agent_C", "Arial";
+}
+
+.so_options {
+  /* border: 1px solid white; */
+  padding-top: 22px;
+}
+
+/* SO selection */
+.so_options label {
+  /* border: 1px solid white; */
+  color: white;
+  font-size: 20px;
+  margin-right: 55px;
+  vertical-align: 22px;
 }
 
 /* Submit button */

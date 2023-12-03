@@ -18,6 +18,10 @@
   <body>
     <main>
 
+      <audio preload="auto" autoplay controls loop volume="0.1">
+        <source src="./assets/music/background_music.mp3" type="">
+      </audio>
+
       <!-- Menú box code ------------------------------------------------------------------------- -->
 
       <section class="menu">
@@ -95,7 +99,7 @@
 
         <!-- Form itself -->
         <section class="form_itself_box">
-          <form action="~/Documentos/">
+          <form action="./">
 
             <!-- Name box -->
             <div class="name">
@@ -131,6 +135,16 @@
                 <label><input type="radio" name="pet" value="dog"> Perros</label>
                 <label><input type="radio" name="pet" value="ambos"> Ambos</label>
                 <label><input type="radio" name="pet" value="none"> Ninguno</label>
+              </div>
+            </div>
+
+            <!-- SO -->
+            <div class="so">
+              <p class="so_text">Sistema Operativo Preferido</p>
+              <div class="so_options">
+                <label><input type="checkbox" name="so" value="linux"> Linux</label>
+                <label><input type="checkbox" name="so" value="windows"> Windows</label>
+                <label><input type="checkbox" name="so" value="mac_os"> Mac OS</label>
               </div>
             </div>
 
