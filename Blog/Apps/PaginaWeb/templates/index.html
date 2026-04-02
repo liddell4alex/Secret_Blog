@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head> <!--contiene informacion sobre el documento -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--Para que funcione en celulares -->
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Alex"/>
+    <title>Te amo Emil</title> <!-- Titulo de la página (nombre en pestaña) -->
+    <link rel="page icon" type="image/png" href="./assets/img/page_icon.ico"/>
+    <link rel="stylesheet" href="./assets/css/index_css/fonts.css"/>
+    <link rel="stylesheet" href="./assets/css/index_css/body.css"/>
+    <link rel="stylesheet" href="./assets/css/index_css/menu.css"/>
+    <link rel="stylesheet" href="./assets/css/index_css/description.css"/>
+
+  </head>
+
+  <body>
+    <main>
+
+      <audio preload="auto" autoplay controls loop volume="0.1">
+        <source src="./assets/music/background_music.mp3" type="">
+      </audio>
+
+      <!-- Menú box code ------------------------------------------------------------------------- -->
+
+      <section class="menu">
+
+        <!-- Background Video code -->
+        <section>
+          <video class="back_video" autoplay loop muted poster="./assets/img/menu_background.webp" type="img/webp">
+            <source src="./assets/vid/menu_video_background.mp4" type="video/mp4"/>
+          </video>
+        </section>
+
+        <!-- Title, phrase and autor's phrase code -->
+        <section>
+          <h1><a class="title" href="./index.html">Mi Blog<a/></h1>
+          <h2 class="frase" style="font-size: 18px">"Programming is understanding"</h2>
+          <h3 style="font-size: 10px"><a class="frase_auth" href="https://en.wikipedia.org/wiki/Kristen_Nygaard" target="_blank">– Kristen Nygaard</a></h3>
+        </section>
+
+        <!-- Menu options code -->
+        <section class="menu_opt">
+
+          <div class="opt_1">
+            <a href="./index.html" class="likes_link">
+              <p class="likes">Yo</p>
+              <p class="ico_likes">💀</p>
+            </a>
+          </div>
+
+          <div class="opt_2">
+            <a href="./index.html" class="img_link">
+              <p class="img">Imágenes</p>
+              <p class="ico_img">📷 </p>
+            </a>
+          </div>
+
+          <div class="opt_3">
+            <a href="./index.html" class="vid_link">
+              <p class="vid">Videos</p>
+              <p class="ico_vid">🎬 </p>
+            </a>
+          </div>
+
+          <div class="opt_4">
+            <a href="./index.html" class="music_link">
+              <p class="music">Música</p>
+              <p class="ico_music">🎵</p>
+            </a>
+          </div>
+
+          <div class="opt_5">
+            <a href="https://github.com/liddell4alex" target="_blank" class="git_link">
+              <p class="git">My GitHub</p>
+              <p class="ico_git">🐈‍⬛</p>
+            </a>
+          </div>
+
+        </section>
+
+      </section>
+
+      <!-- --------------------------------------------------------------------------------------- -->
+
+      <!-- Formulario de la página -------------------------------------------------------------- -->
+
+      <!-- Form box -->
+      <section class="form_box">
+
+        <!-- Form title and description -->
+        <div>
+          <h2 class="form_title" style="font-size: 40px"><b>Encuesta</b></h2>
+          <p class="form_descript" style="font-size: 30px">Pequeña encuesta simplemente para practicar,
+                                                           muy seguramente la borraré o la moveré de lugar
+                                                           en un futuro.</p>
+        </div>
+
+        <!-- Form itself -->
+        <section class="form_itself_box">
+          <form action="./">
+
+            <!-- Name box -->
+            <div class="name">
+              <p class="name_text">Nombre</p>
+              <input required class="name_box" type="text" name="fname" placeholder="Nombre">
+              <input required class="lastname_box" type="text" name="lname" placeholder="Apellido/s">
+            </div>
+
+            <!-- Email box -->
+            <div class="email">
+              <p class="email_text">E-mail</p>
+              <input class="email_box" type="text" name="email" placeholder="E-mail">
+            </div>
+
+            <!-- Country box -->
+            <div class="country">
+              <p class="country_text">País</p>
+              <select class="country_box">
+                <option value="option">Selecciona tu país</option>
+                <option value="mx">México</option>
+                <option value="co">Colombia</option>
+                <option value="ar">Argentina</option>
+                <option value="jp">Japón</option>
+                <option value="de">Alemania</option>
+              </select>
+            </div>
+
+            <!-- Pet -->
+            <div class="pet">
+              <p class="pet_text">Máscota</p>
+              <div class="pet_options">
+                <label><input type="radio" name="pet" value="cat"> Gatos</label>
+                <label><input type="radio" name="pet" value="dog"> Perros</label>
+                <label><input type="radio" name="pet" value="ambos"> Ambos</label>
+                <label><input type="radio" name="pet" value="none"> Ninguno</label>
+              </div>
+            </div>
+
+            <!-- SO -->
+            <div class="so">
+              <p class="so_text">Sistema Operativo Preferido</p>
+              <div class="so_options">
+                <label><input type="checkbox" name="so" value="linux"> Linux</label>
+                <label><input type="checkbox" name="so" value="windows"> Windows</label>
+                <label><input type="checkbox" name="so" value="mac_os"> Mac OS</label>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="submit_button">
+              <button type="submit">Aceptar</button>
+            </div>
+
+          </form>
+
+        </section>
+
+      </section>
+
+      <!-- --------------------------------------------------------------------------------------- -->
+    </main>
+  </body>
+</html>
