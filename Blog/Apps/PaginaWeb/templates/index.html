@@ -12,80 +12,12 @@
     <link rel="page icon" type="image/png" href="{% static 'img/page_icon.ico' %}"/>
     <link rel="stylesheet" href="{% static 'css/index_css/fonts.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/index_css/body.css' %}"/>
-    <link rel="stylesheet" href="{% static 'css/index_css/menu.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/index_css/description.css' %}"/>
 
   </head>
 
   <body>
     <main>
-
-      <audio preload="auto" autoplay controls loop volume="0.1">
-        <source src="{% static 'music/background_music.mp3' %}" type="">
-      </audio>
-
-      <!-- Menú box code ------------------------------------------------------------------------- -->
-
-      <section class="menu">
-
-        <!-- Background Video code -->
-        <section>
-          <video class="back_video" autoplay loop muted poster="{% static 'img/menu_background.webp' %}" type="img/webp">
-            <source src="{% static 'vid/menu_video_background.mp4' %}" type="video/mp4"/>
-          </video>
-        </section>
-
-        <!-- Title, phrase and autor's phrase code -->
-        <section>
-          <h1><a class="title" href="./index.html">Mi Blog<a/></h1>
-          <h2 class="frase" style="font-size: 18px">"Programming is understanding"</h2>
-          <h3 style="font-size: 10px"><a class="frase_auth" href="https://en.wikipedia.org/wiki/Kristen_Nygaard" target="_blank">– Kristen Nygaard</a></h3>
-        </section>
-
-        <!-- Menu options code -->
-        <section class="menu_opt">
-
-          <div class="opt_1">
-            <a href="./index.html" class="likes_link">
-              <p class="likes">Yo</p>
-              <p class="ico_likes">💀</p>
-            </a>
-          </div>
-
-          <div class="opt_2">
-            <a href="./index.html" class="img_link">
-              <p class="img">Imágenes</p>
-              <p class="ico_img">📷 </p>
-            </a>
-          </div>
-
-          <div class="opt_3">
-            <a href="./index.html" class="vid_link">
-              <p class="vid">Videos</p>
-              <p class="ico_vid">🎬 </p>
-            </a>
-          </div>
-
-          <div class="opt_4">
-            <a href="./index.html" class="music_link">
-              <p class="music">Música</p>
-              <p class="ico_music">🎵</p>
-            </a>
-          </div>
-
-          <div class="opt_5">
-            <a href="https://github.com/liddell4alex" target="_blank" class="git_link">
-              <p class="git">My GitHub</p>
-              <p class="ico_git">🐈‍⬛</p>
-            </a>
-          </div>
-
-        </section>
-
-      </section>
-
-      <!-- --------------------------------------------------------------------------------------- -->
-
       <!-- Request from nasaads api -------------------------------------------------------------- -->
       <section class="form_box">
         <ul>
@@ -99,8 +31,6 @@
           {% endfor %}
         </ul>
       </section>
-      <!-- --------------------------------------------------------------------------------------- -->
-      
       <!-- --------------------------------------------------------------------------------------- -->
     </main>
   </body>
